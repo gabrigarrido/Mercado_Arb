@@ -1,0 +1,103 @@
+{
+    "produtos":[
+        {
+            "id":1,
+            "nome": "Uva",
+            "preço": 2.20,
+            "url": "./icons/uva.jpg"
+        },
+        {
+            "id":2,
+            "nome": "Laranja" ,
+            "preço": 1.30,
+            "url": "./icons/laranja-laranja.png"
+        },
+        {
+            "id":3,
+            "nome": "Maçã",
+            "preço": 1.50 ,
+            "url": "./icons/maca.jpg"
+        },
+        {
+            "id":4,
+            "nome": "Banana",
+            "preço": 1.60,
+            "url": "./icons/banana.jpg"
+        },
+        {
+            "id":5,
+            "nome": "Kiwi",
+            "preço": 2.00,
+            "url": ".icons/kiwi.jpg"
+        },
+        {
+            "id":6,
+            "nome": "Melancia" ,
+            "preço": 12.00,
+            "url": ".icons/melancia.jpg.jpg"
+        },
+        {
+            "id":7,
+            "nome": "Melao",
+            "preço": 6.00,
+            "url": ".icons/melao.png"
+        },
+        {
+            "id":8,
+            "nome": "Pêssego",
+            "preço": 5.00,
+            "url": "./icons/pessego.jpg"
+        },
+        {
+            "id":9,
+            "nome": "Ameixa",
+            "preço": 4.50,
+            "url": "./icons/ameixa.jpg"
+        },
+        {
+            "id":10,
+            "nome": "Caju",
+            "preço": 6.20,
+            "url": "./icons/caju.jpg"
+        },
+        {
+            "id":11,
+            "nome": "Coco",
+            "preço": 3.10,
+            "url": "./icons/coco.jpg"
+        },
+        {
+            "id":12,
+            "nome": "Damasco" ,
+            "preço": 4.20,
+            "url": "./icons/damasco.jpg"
+        },
+        {
+            "id":13,
+            "nome": "Jaca",
+            "preço": 5.10 ,
+            "url": "./icons/jaca.jpg"
+        },
+        {
+            "id":14,
+            "nome": "Lichia" ,
+            "preço": 4.50,
+            "url": "./icons/lichia.jpg"
+        },
+        {
+            "id":15,
+            "nome": "Limão",
+            "preço": 5.10,
+            "url": "./icons/limao.jpg"
+        }
+        {
+            "id": 16,
+            "nome": "Manga",
+            "preço": 3.40,
+            "url" :"./icons/manga.jpg"
+        }
+    ],
+    "carrinho": [
+        
+    ]
+} 

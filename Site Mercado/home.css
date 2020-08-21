@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#main-container {
+  
+    }
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 35vh;
+    width: 100%;
+
+    background-color: rgb(255, 204, 41);
+
+}
+
+header img {
+        width: 33vw;
+        height: 18vh;
+        margin: 10px;
+        background-color: rgb(255, 204, 41);
+        
+}
+header nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 50%;
+    margin-top:5px;
+   
+    
+
+}
+
+nav input{
+
+    width:  40vw;
+    height: 4vh;
+    border-radius:21px; 
+    border-width:3px; 
+    background-color:#ffffff; 
+    border-color: black;
+    padding:7px; 
+    font-size:18px; 
+    border-style:solid; 
+    text-shadow:0px 0px 0px rgba(42,42,42,.75); 
+    box-shadow: 9px 5px 12px 0px rgba(42,42,42,.67); 
+    font-weight:normal; 
+}
+
+nav input:focus {
+    outline:none;
+}
+
+header button{
+    box-shadow: 2px 8px 3px 1px #1a2630;
+	background-color: #1ff74cad;
+	border-radius:16px;
+	border:2px solid #000000;
+	cursor:pointer;
+	color: black;
+	font-family:Arial;
+	font-size:19px;
+	font-style:italic;
+	padding:7px 16px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #528ecc;
+    margin-right: 2vh;
+}
+
+header button:hover{
+    background-color: rgba(22, 21, 21, 0.70);
+    color: rgb(255, 204, 41);
+}
+/*---main*/
+
+main{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+
+}
+.cartao{
+    background-color: rgb(255, 204, 41);
+    margin:20px;
+    margin-top: 50px;
+    height: 350px;
+    width: 250px;
+    border: 2px solid rgb(255, 204, 41);
+}
+
+.conteudo-cartao{
+
+}
+
+.input-comprar{
+    width: 120px;
+    height: 30px;
+}
+.botao-comprar{
+    box-shadow: 2px 8px 3px 1px #1a2630;
+	background-color: #1ff74cad;
+	border:2px solid #000000;
+	cursor:pointer;
+	color: black;
+	font-family:Arial;
+	font-size:16px;
+	font-style:italic;
+	padding:1px 4px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #528ecc;
+
+}
+
+.botao-comprar:hover{
+    background-color: rgba(22, 21, 21, 0.70);
+    color: rgb(255, 204, 41);
+}
+/*---footer*/
+footer{
+
+    height: 6vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer img {
+    margin-top: 5px;
+    margin-left:5px
+}
+
+	

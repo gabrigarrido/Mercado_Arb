@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Arbyte</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script src='https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js'></script>
+    <script src="./home.js"></script>
+</head>
+<body>
+  <div id='main-container'>
+    <!--Header do site-->
+    <header>
+        
+        <img src="icons/logo-arbyte.png" >
+        <h1>Mercabyte</h1>
+        
+      <nav> 
+
+        <input type='text' id='' placeholder="Insira o item de pesquisa aqui">
+      </input>
+        
+        <button>Pesquisar!</button>
+
+      </nav>
+
+    </header>
+    <!--Tela principal do site com os cards-->
+    <main>
+     <section class="cartao"> 
+        <div class="imagem-cartao">
+          <img src="icons/uva.jpg" width="250px">
+
+
+        </div>
+        <div> 
+          <div class="conteudo-cartao">
+            <p id="nomeUva" type="text">Uva</p>
+            <p>PREÇO:</p>
+            <p id="precoUva">2.20</p>
+           
+          </div>
+          <div>
+            <button id="comprarUva" class="botao-comprar">COMPRAR</button>
+            <input id="quantidadeUva" class='input-comprar' type="number">
+          </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+     <section class="cartao">
+      <div class="imagem-cartao">
+        <img src="icons/laranja-laranja.jpg" width="250px" height="250px">
+      </div>
+      <div class="conteudo-cartao">
+        <div>
+          <p id="nomeLaranja" >Laranja</p>
+          <p>PREÇO:</p>
+          <p id="precoLaranja">1.30</p>
+        </div>
+        <div>
+          <button id="comprarLaranja" class="botao-comprar">COMPRAR</button>
+          <input id="quantidadeLaranja"class='input-comprar' type="number" width="50px">
+        </div>
+      </div>
+        
+
+     </section>
+     <section class="cartao">
+      <div class="imagem-cartao">
+        <img src="icons/maca.jpg" width="250px" height="250px">
+      </div>
+      <div class="conteudo-cartao">
+        <div>
+          <p id="nomeMaca">Maçã</p>
+          <p>PREÇO:</p>
+          <p id="precoMaca">1.50</p>
+        </div>
+        <div>
+          <button id="comprarMaca" class="botao-comprar">COMPRAR</button>
+          <input id="quantidadeMaca" class='input-comprar' type="number" width="50px">
+        </div>
+      </div>
+        
+
+     </section>
+     <section class="cartao">
+      <div class="imagem-cartao">
+        <img src="icons/banana.jpg" width="250px" height="250px">
+      </div>
+      <div class="conteudo-cartao">
+        <div>
+          <p id="nomeBanana">Banana</p>
+          <p>PREÇO:</p>
+          <p id="precoBanana">1.60</p>
+        </div>
+        <div>
+          <button id="comprarBanana" class="botao-comprar">COMPRAR</button>
+          <input id="quantidadeBanana" class='input-comprar' type="number" width="50px">
+        </div>
+      </div>
+        
+
+     </section>
+     <section class="cartao">
+      <div class="imagem-cartao">
+        <img src="icons/kiwi.jpg" width="250px" height="250px">
+      </div>
+      <div class="conteudo-cartao">
+        <div>
+          <p id="nomeKiwi">Kiwi</p>
+          <p>PREÇO:</p>
+          <p id="precoKiwi">2.00</p>
+        </div>
+        <div>
+          <button id="comprarKiwi" class="botao-comprar">COMPRAR</button>
+          <input id="quantidadeKiwi"class='input-comprar' type="number" width="50px">
+        </div>
+      </div>
+        
+
+     </section>
+     <section class="cartao">
+      <div class="imagem-cartao">
+        <img src="icons/melanciaa.jpg.jpg" width="250px" height="250px">
+      </div>
+      <div class="conteudo-cartao">
+        <div>
+          <p id="nomeMelancia">Melancia</p>
+          <p>PREÇO:</p>
+          <p id="precoMelancia"> 12.00</p>
+        </div>
+        <div>
+          <button id="comprarMelancia" class="botao-comprar">COMPRAR</button>
+          <input id="quantidadeMelancia" class='input-comprar' type="number" width="50px">
+        </div>
+      </div>
+        
+
+     </section>
+     <section class="cartao">
+      <div class="imagem-cartao">
+        <img src="icons/melao.png" width="250px" height="250px">
+      </div>
+      <div class="conteudo-cartao">
+        <div>
+          <p id="nomeMelao">Melao</p>
+          <p>PREÇO:</p>
+          <p id="precoMelao">6.00</p>
+        </div>
+        <div>
+          <button id="comprarMelao" class="botao-comprar">COMPRAR</button>
+          <input id="quantidadeMelao" class='input-comprar' type="number" width="50px">
+        </div>
+      </div>
+        
+
+     </section>
+     <section class="cartao">
+      <div class="imagem-cartao">
+        <img src="icons/pessego.jpg" width="250px" height="250px">
+      </div>
+      <div class="conteudo-cartao">
+        <div>
+          <p id="nomePessego">Pêssego</p>
+          <p>PREÇO:</p>
+          <p id="precoPessego">5.00<p>
+        </div>
+        <div>
+          <button id="comprarPessego" class="botao-comprar">COMPRAR</button>
+          <input id="quantidadePessego" class='input-comprar' type="number" width="50px">
+        </div>
+      </div>
+     </section>
+
+
+
+    <section class="cartao">
+     <div class="imagem-cartao">
+       <img src="icons/ameixa.jpg" width="250px" height="250px">
+     </div>
+     <div class="conteudo-cartao">
+       <div>
+         <p id="nomeAmeixa">Ameixa</p>
+         <p>PREÇO:</p>
+         <p id="precoAmeixa">4.50</p>
+       </div>
+       <div>
+         <button id="comprarAmeixa" class="botao-comprar">COMPRAR</button>
+         <input id="quantidadeAmeixa" class='input-comprar' type="number" width="50px">
+       </div>
+     </div>
+     </section>
+
+     <section class="cartao">
+      <div class="imagem-cartao">
+        <img src="icons/caju.jpg" width="250px" height="250px">
+      </div>
+      <div class="conteudo-cartao">
+        <div>
+          <p id="nomeCaju">Caju</p>
+          <p>PREÇO:</p>
+          <p id="precoCaju">6.20</p>
+        </div>
+        <div>
+          <button id="comprarCaju" class="botao-comprar">COMPRAR</button>
+          <input  id="quantidadeCaju" class='input-comprar' type="number" width="50px">
+        </div>
+      </div>
+      </section>
+
+
+      <section class="cartao">
+        <div class="imagem-cartao">
+          <img src="icons/coco.jpg" width="250px" height="250px">
+        </div>
+        <div class="conteudo-cartao">
+          <div>
+            <p id="nomeCoco">Coco</p>
+            <p>PREÇO:</p>
+            <p id="precoCoco">3.10</p>
+          </div>
+          <div>
+            <button id="comprarCoco"class="botao-comprar">COMPRAR</button>
+            <input id="quantidadeCoco" class='input-comprar' type="number" width="50px">
+          </div>
+        </div>
+        </section>
+
+       <section class="cartao">
+          <div class="imagem-cartao">
+            <img src="icons/damasco.jpg" width="250px" height="250px">
+          </div>
+          <div class="conteudo-cartao">
+            <div>
+              <p id="nomeDamasco">Damasco</p>
+              <p>PREÇO:</p>
+              <p id="precoDamasco">5.10</p>
+            </div>
+            <div>
+              <button id="comprarDamasco" class="botao-comprar">COMPRAR</button>
+              <input id="quantidadeDamasco" class='input-comprar' type="number" width="50px">
+            </div>
+          </div>
+          </section>
+
+
+      <section class="cartao">
+            <div class="imagem-cartao">
+              <img src="icons/jaca.jpg" width="250px" height="250px">
+            </div>
+            <div class="conteudo-cartao">
+              <div>
+                <p id="nomeJaca">Jaca</p>
+                <p>PREÇO:</p>
+                <p id="precoJaca">5.10</p>
+              </div>
+              <div>
+                <button id="comprarJaca" class="botao-comprar">COMPRAR</button>
+                <input id="quantidadeJaca" class='input-comprar' type="number" width="50px">
+              </div>
+            </div>
+            </section>
+
+
+    <section class="cartao">
+        <div class="imagem-cartao">
+          <img src="icons/lichia.jpeg"width="250px" height="250px">
+          </div>
+        <div class="conteudo-cartao">
+            <div>
+              <p id="nomeLichia">Lichia</p>
+              <p>PREÇO:</p>
+              <p id="precoLichia">4.50</p>
+          </div>
+          <div>
+              <button id="comprarLichia" class="botao-comprar">COMPRAR</button>
+              <input id="quantidadeLichia" class='input-comprar' type="number" width="50px">
+            </div>
+          </div>
+        </section>
+      <section class="cartao">
+          <div class="imagem-cartao">
+            <img src="icons/limao.jpg" width="250px" height="250px">
+          </div>
+          <div class="conteudo-cartao">
+            <div>
+              <p id="nomeLimao">Limão</p>
+              <p>PREÇO:</p>
+              <p id="precoLimao">5.10</p>
+            </div>
+            <div>
+              <button id="comprarLimao" class="botao-comprar">COMPRAR</button>
+              <input id="quantidadeLimao" class='input-comprar' type="number" width="50px">
+            </div>
+          </div>
+          </section>
+
+
+          <section class="cartao">
+            <div class="imagem-cartao">
+              <img src="icons/manga.jpg" width="250px" height="250px">
+            </div>
+            <div class="conteudo-cartao">
+              <div>
+                <p id="nomeManga">Manga</p>
+                <p>PREÇO:</p>
+                <p id="precoManga">3.40</p>
+              </div>
+              <div>
+                <button id="comprarManga" class="botao-comprar">COMPRAR</button>
+                <input id="quantidadeManga" class='input-comprar' type="number" width="50px">
+              </div>
+            </div>
+            </section>
+  
+
+
+ 
+    </main>
+    <!--Footer do Site-->
+    <footer>
+      <p>Entre em contato conosco atraves das nossas redes sociais</p>
+      <div class="footer-div">
+        <a href="" target="_blank">  <img src="./icons/facebook.png" width="40px" height="40px" > </a>
+        <a href="" target="_blank"> <img src="./icons/twitter.png" width="40px" height="40px"> </a>
+
+
+      </div>
+
+    </footer>
+    <footer>
+
+    </footer>
+  </div>
+    
+    
+</body>
+
+</html>
